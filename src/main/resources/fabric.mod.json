@@ -2,33 +2,30 @@
 	"schemaVersion": 1,
 	"id": "bloomysettingsimport",
 	"version": "${version}",
-	"name": "Bloomy Settings Import",
+	"name": "Bloomy-Settings-Import-1.21.8",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"toent!"
+		"Me!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT",
+	"license": "CC0-1.0",
 	"icon": "assets/bloomysettingsimport/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"nl.toent.bloomysettingsimport.BloomySettingsImport"
-		],
-		"fabric-datagen": [
-			"nl.toent.bloomysettingsimport.BloomySettingsImportDataGenerator"
+			"nl.toent.bloomysettingsimport.BloomySettingsImport1218"
 		]
 	},
 	"mixins": [
 		"bloomysettingsimport.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.9",
-		"minecraft": "~1.20.1",
-		"java": ">=17",
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
 		"fabric-api": "*"
 	},
 	"suggests": {
